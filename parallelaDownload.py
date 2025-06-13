@@ -66,5 +66,5 @@ async def download_zip_parallel(url, output_file, num_parts=16):
  
 # Usage
 if __name__ == '__main__':
-    url = "https://iwm.dhe.ibm.com/sdfdl/v2/regs2/mbford/Xa.2/Xb.WJL1CuPI9hrFOjfURNGpgaRCbSTunueem8D1eti2AhE/Xc.13.0.3.0-ACE-WIN64-EVALUATION.zip/Xd./Xf.lPr.D1vk/Xg.13385323/Xi.swg-wmbfd/XY.regsrvs/XZ.3senR2BbentYTy0xwbUkHpiCrTy_i3nm/13.0.3.0-ACE-WIN64-EVALUATION.zip"  # Replace with actual ZIP URL
-    asyncio.run(download_zip_parallel(url, "13.0.3.0-ACE-WIN64-EVALUATION.zip"))
+    url = "url.url.com"  # Replace with actual ZIP URL
+    asyncio.run(download_zip_parallel(url, "filename"))
